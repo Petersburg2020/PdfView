@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PDFViewPager">
+        <attr name="assetFileName" format="string"/>
+        <attr name="pdfUrl" format="string"/>
+        <attr name="scale" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="SubsamplingScaleImageView">
+        <attr name="assetName" format="string"/>
+        <attr name="src" format="string"/>
+        <attr name="panEnabled" format="boolean"/>
+        <attr name="zoomEnabled" format="boolean"/>
+        <attr name="quickScaleEnabled" format="boolean"/>
+        <attr name="tileBackgroundColor" format="color"/>
+    </declare-styleable>
+
+</resources>
